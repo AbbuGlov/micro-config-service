@@ -10,4 +10,4 @@ eureka:
     prefer-ip-address: true
 
 test:
-  name: this is test name dev server
+  name: this is test name Prod server
