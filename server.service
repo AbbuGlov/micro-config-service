@@ -1,0 +1,11 @@
+[Unit]
+Description=tablet-server
+After=syslog.target
+
+[Service]
+User=gvpweb2
+ExecStart=/home/gvpweb2/tablet-app/tablet-server.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
